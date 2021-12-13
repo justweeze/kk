@@ -3,7 +3,7 @@ import random,time,re,names,time
 
 def Prox():
 	link = google.com
-        driver = webdriver.Firefox
+        driver = webdriver.Firefox()
 	driver.get(link)
 	time.sleep(5)
 	adnext = driver.find_element_by_id("skip_bu2tton")
